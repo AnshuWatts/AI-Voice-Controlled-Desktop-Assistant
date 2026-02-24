@@ -9,13 +9,14 @@ import basic
 import chrome
 import commands as cmd
 import cpu
-import notes
+import notes_module
 import screenshot
 import songs
 import wiki
 import speak
 import applications as app
 import editables
+
 
 name = editables.name
 real_name = editables.real_name
@@ -26,8 +27,8 @@ password_count = 0
 
 if __name__ == "__main__":
 
-    # Password
-    """speak.speak('Hello, Please tell me the password?')
+# password
+    speak.speak('Hello, Please tell me the password?')
     while notLogged:
         password_count = password_count + 1
         password = cmd.takeCommand_without_print().lower()
@@ -46,7 +47,7 @@ if __name__ == "__main__":
             speak.speak('Going offline')
             quit()
         else:
-            speak.speak('Wrong Password, Please try again....') """
+            speak.speak('Wrong Password, Please try again....') 
 
     # Main
     basic.greeting(name, real_name)
@@ -137,6 +138,7 @@ if __name__ == "__main__":
         elif 'youtube' in query:
             chrome.search_youtube(query)
 
+
         # Search Youtube
         elif 'open whatsapp' in query:
             chrome.open_whatsapp()
@@ -173,11 +175,11 @@ if __name__ == "__main__":
 
         # Take Note
         elif 'note' in query:
-            notes.write_note()
+            notes_module.write_note()
 
         # Tell Story
         elif 'story' in query:
-            notes.read_note()
+            notes_module.read_note()
 
         # Screenshot
         elif 'screenshot' in query:
@@ -197,7 +199,7 @@ if __name__ == "__main__":
         elif 'sinhala songs' in query:
             songs.play_sinhala_song()
 
-        # Sinahala Song
+        # Song
         elif 'english song' in query:
             songs.play_english_song()
         elif 'english songs' in query:
@@ -252,7 +254,7 @@ if __name__ == "__main__":
             whatsapp.sendwhatsapp()
 
         # Natasha (Should be last One)
-        elif 'hello natasha' in query:
+        elif 'hello Jarvis' in query:
             basic.greeting(name, real_name)
-        elif 'natasha' in query:
+        elif 'Jarvis' in query:
             about_natasha.natasha()

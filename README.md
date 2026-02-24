@@ -1,16 +1,10 @@
-# Natasha | Voice Assistant
-Natasha is a voice assistant I developed for educational purposes.
+# Jarvish | Voice Assistant
+Jarvish is a voice assistant I developed for educational purposes.
 
-<hr>
 
-## YouTube Video
-I did small video for Natasha in my [YouTube channel](https://www.youtube.com/shamilkeheliya) <br>
-YouTube Video - [https://youtu.be/2pI9VhimW-k](https://youtu.be/2pI9VhimW-k) 
-<hr>
-
-## What can Natasha do?
+## What can Jarvish do?
 - Name
-- Introduction
+- Inrtoduction
 - Date
 - Time
 - Go Offline

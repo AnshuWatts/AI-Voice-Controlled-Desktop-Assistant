@@ -1,31 +1,31 @@
 # Main
-name = 'Shaamillll'   # Pronunciation
-real_name = 'Shamil'  # Printing
-real_password = 'hello natasha'  # Password for Voice Assistant
+name = 'python'   # Pronunciation
+real_name = 'python'  # Printing
+real_password = 'python'  # Password for Voice Assistant
 
 # Voice Assistant
-gender = 1  # 0 for Male Voice and 1 for Female Voice
+gender = 0  # 0 for Male Voice and 1 for Female Voice
 rate = 150  # Speaking rate
 
 # Folders
-notes = r'E:/Natasha'
-remember = r'E:/Natasha'
-screenshots = r'C:/Users/ASUS/Desktop/Snaps'
+notes = r'C:\Users\sanjo\Downloads\Voice-assistant\Voice-assistant\notes.py'
+remember = r'C:\Users\sanjo\Downloads\Voice-assistant\Voice-assistant\Natasha'
+screenshots = r'C:\Users\sanjo\Downloads\Voice-assistant\Voice-assistant\Screenshots'
 
 # Applications
-chrome = r'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe'
-firefox = r'C:\Program Files\Mozilla Firefox\firefox.exe'
+chrome = r'C:\Program Files\Google\Chrome\Application\chrome.exe'
+firefox = r'C:\Program Files (x86)\Mozilla Firefox\firefox.exe'
 android_studio = r'C:\Program Files\Android\Android Studio\bin\studio.exe'
 telegram = r'G:\Program Files\Telegram Desktop\Telegram.exe'
 
 # Songs
-songs = r'C:\Users\ASUS\Downloads\Songs for Natasha'
+songs = r'E:\voice assistant\song'
 songs_count = 2
-english_songs = r'C:\Users\ASUS\Downloads\NEW SONGS'
+english_songs = r'C:\Users\sanjo\Downloads\Voice-assistant\Voice-assistant\English_songs'
 english_songs_count = 7
 sinhala_songs = r'C:\Users\ASUS\Downloads\Sinhala Songs'
 sinhala_songs_count = 21
 
 # API keys
-wolframalphaAPIkey = '8DT6S5-TS98UH2EY3'  # https://developer.wolframalpha.com/
-newsAPIkey = 'sd6a6dh39sajhdwyc65a6s7p23d62hdy'  # https://newsapi.org/
+wolframalphaAPIkey = '4QGGGR-JVE57R8LGE'  # https://developer.wolframalpha.com/
+newsAPIkey = '833c55acf94543b3b622d38d2f75b376'  # https://newsapi.org/

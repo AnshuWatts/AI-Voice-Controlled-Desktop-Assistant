@@ -4,7 +4,7 @@ from colorama import Fore, Style
 
 def takeCommand():
     r = speech_recognition.Recognizer()
-    with speech_recognition.Microphone() as source:
+    with speech_recognition.Microphone(sample_rate=44100) as source:
         print(Fore.YELLOW + 'Listening....' + Style.RESET_ALL)
         r.pause_threshold = 1
         audio = r.listen(source)

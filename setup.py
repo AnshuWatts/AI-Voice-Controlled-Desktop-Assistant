@@ -11,7 +11,7 @@ if sys.platform == "win32":
     base = "Win32GUI"
 
 setup(
-    name="Natasha",
+    name="Jarvish",
     version="1.0",
     description="Voice Assistant",
     options={"build_exe": build_exe_options},
