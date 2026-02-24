@@ -1,8 +1,8 @@
-# Jarvish | Voice Assistant
-Jarvish is a voice assistant I developed for educational purposes.
+# Natasha | Voice Assistant
+Natasha is a voice assistant I developed for educational purposes.
 
 
-## What can Jarvish do?
+## What can Natasha do?
 - Name
 - Inrtoduction
 - Date
